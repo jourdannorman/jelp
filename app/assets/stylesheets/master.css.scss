@@ -1,5 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -16,6 +18,15 @@
   background: url('/assets/edges.png');
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #9683EC;
+  font-size: 26px;
+  /* Font Squirrel */
+  /*font-family: 'milkshakeregular', serif;*/
+  /* Google Fonts - must uncomment the @import above for this to work & comment the Font Squirrel */
+  font-family: 'Lobster', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
