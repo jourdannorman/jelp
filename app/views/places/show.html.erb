@@ -59,8 +59,9 @@
     </div>
   </div>
 </div>
-
-<%= simple_form_for @photo, url: '#' do |p| %>
+<div class="clear"></div>
+<%= simple_form_for @photo, url: place_photos_path(@place) do |p| %>
+  <!-- ADD p.input :picture here!!!! -->
   <%= p.input :caption %>
   <%= p.submit "Add a Photo", class: 'btn btn-primary' %>
 <% end %>
