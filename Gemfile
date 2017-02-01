@@ -61,7 +61,8 @@ gem "figaro", ">= 1.0.0"
 # Photo upload
 gem 'carrierwave', '~> 1.0'
 
-
+# Allows Carrierwave to communicate with Amazon S3
+gem "fog"
 
 
 
