@@ -9,21 +9,21 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <%= image_tag 'slider1.jpg' %>
+      <%= image_tag 'Slider1.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
         Ruxbin
       </div>
     </div>
     <div class="item">
-      <%= image_tag 'slider2.jpg' %>
+      <%= image_tag 'slider2.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
         Glaze Teriyaki
       </div>
     </div>
     <div class="item">
-      <%= image_tag 'slider3.jpg' %>
+      <%= image_tag 'slider3.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
-        Next
+        Next Restaurant
       </div>
     </div>
   </div>
@@ -66,5 +66,6 @@
     <% end %>
   </div>
 <% end %>
+
 
 <%= paginate @places %>
