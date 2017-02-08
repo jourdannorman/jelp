@@ -54,17 +54,4 @@
       </div>
     <% end %>
   </div>
-
-    <% if place.comments.present? %>
-      <div class="col-xs-12">
-        <blockquote>
-          <% if place.comments.last.humanized_rating.present? %>
-            <b><%= place.comments.last.humanized_rating %></b> -
-          <% end %>
-          <%= last_comment(place).message %>
-          <small><%= place.comments.last.user.email %></small>
-        </blockquote>
-      </div>
-    <% end %>
-  </div>
 <% end %>
